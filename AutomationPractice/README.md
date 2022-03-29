@@ -24,10 +24,6 @@ In Page Object Model, consider each web page of an application as a class file. 
 2. Helps with reusing code: 
 3. Readability and Reliability of scripts
 
-Output Contains output reports, and and also screen shots.
-Resource Contains configuration files, and also browser drivers.
-Testdata Contains both master and project files. I have created a two layer of test data sheets. it helps to manage the test data input sheets for multiple environments.
-
 **Testing notes**
 
 Code was implemented using Eclipse IDE. Programming Language: Java (Java 8 is being used.) Selenium is used for automation actions. Page Object Model and Page Factory has been using as part of Selenium approach. Chosen web browser: Chrome (chromedriver.exe used to communicate with Selenium.) Created using a BDD approach in order to better understanding of all parties included. Achieved using Cucumber. To manage dependencies, build and run it MAVEN project was implemented. TestNG is implemented in order to run the BDD approach. Extent reports is used for reporting purposes. Page Object Model is used to separate locators per page and code re utilization.
@@ -41,3 +37,6 @@ Download MAVEN a. C:\Libs\apache-maven-3.5.4 b. Edit Windows environment variabl
 
 Execute the CucumberRunner.class present in Runner package of the project.
 Reports - Found under ExtentReports folder in the project
+
+Output Contains output reports and and also screen shots. [Output Folder](https://github.com/AutomationCoding/AutomationPractice-TechChallennge/tree/main/AutomationPractice/ExtentReport)
+Resource Contains configuration files, and also browser drivers. [Resource Folder](https://github.com/AutomationCoding/AutomationPractice-TechChallennge/tree/main/AutomationPractice/src/test/resources)
