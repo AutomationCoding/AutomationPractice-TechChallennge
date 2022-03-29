@@ -10,8 +10,7 @@ Last updated: 28/03/2022
 
 #Component details implemented with below modules
 
-Cucumber -  we are moving towards BDD framework to reduce the gap between technical and non-technical. Please refer to [(https://github.com/AutomationCoding/AutomationPractice-TechChallennge/blob/8f64c8546c533a65f173cf9af37e0ef658a963f9/AutomationPractice/src/test/resources/features/HomePage/HomePage.feature)](HomePage.feature)
-
+Cucumber -  we are moving towards BDD framework to reduce the gap between technical and non-technical. Please refer to [HomePage.feature](https://github.com/AutomationCoding/AutomationPractice-TechChallennge/blob/8f64c8546c533a65f173cf9af37e0ef658a963f9/AutomationPractice/src/test/resources/features/HomePage/HomePage.feature)
 
 TestNG So many questions around it, why TestNg? if already having a cucumber. My simple answer is TestNg helps to run the test cases in parallel. So I have used to run the test cases in parallel.
 Extent Report It provides a simple HTML report - You can see the sample HTML report in the Output folder.
