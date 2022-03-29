@@ -10,13 +10,19 @@ Last updated: 28/03/2022
 
 #Component details implemented with below modules
 
-Cucumber -  we are moving towards BDD framework to reduce the gap between technical and non-technical. Please refer to [HomePage.feature](https://github.com/AutomationCoding/AutomationPractice-TechChallennge/blob/8f64c8546c533a65f173cf9af37e0ef658a963f9/AutomationPractice/src/test/resources/features/HomePage/HomePage.feature)
+**Cucumber - ** we are moving towards BDD framework to reduce the gap between technical and non-technical. Please refer to [HomePage.feature](https://github.com/AutomationCoding/AutomationPractice-TechChallennge/blob/8f64c8546c533a65f173cf9af37e0ef658a963f9/AutomationPractice/src/test/resources/features/HomePage/HomePage.feature)
 
-Extent Report - Is an open-source, powerful reporting library used for detailed, and visually appealing reports for automation tests. It can integrate with testing frameworks like JUnit, TestNG, etc. Extent reports are HTML-based documents that can carry detailed information about the test executed along with custom logs, screenshots and use a pie chart to represent an overview of the test.
+**Extent Report -** Is an open-source, powerful reporting library used for detailed, and visually appealing reports for automation tests. It can integrate with testing frameworks like JUnit, TestNG, etc. Extent reports are HTML-based documents that can carry detailed information about the test executed along with custom logs, screenshots and use a pie chart to represent an overview of the test.
 You can see the sample HTML report in the Output folder [ExtentReport](https://github.com/AutomationCoding/AutomationPractice-TechChallennge/blob/260865b0d21a48b4f1d395a79714dec402ff3d20/AutomationPractice/ExtentReport/ExtentHtml.html)
 
-Selenium I believe I don't have to say any thing related to it.
-#Folder structure
+**Selenium Framework -**  is a suite of automation testing tools that is based on the JavaScript framework. It could run the tests directly on the target browser, drive the interactions on the required web page and rerun them without any manual input. I believe I don't have to say more related to it.
+
+**Page Object Model(POM)** is a design pattern in Selenium that creates an object repository for storing all web elements. It is useful in reducing code duplication and improves test case maintenance.
+In Page Object Model, consider each web page of an application as a class file. Each class file will contain only corresponding web page elements. Using these elements, testers can perform operations on the website under test.
+**Advantages**
+1. Helps with easy maintenance
+2. Helps with reusing code: 
+3. Readability and Reliability of scripts
 
 Output Contains output reports, and and also screen shots.
 Resource Contains configuration files, and also browser drivers.
